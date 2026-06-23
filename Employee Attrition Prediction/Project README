@@ -1,0 +1,83 @@
+                                                                      📊 Employee Attrition Prediction using Machine Learning
+
+
+🧠 Project Overview
+
+This project focuses on predicting employee attrition using machine learning techniques. The goal is to identify whether an employee is likely to leave the company based on various features such as job role, income, overtime, and work environment factors.
+The project also includes exploratory data analysis (EDA), data preprocessing, handling class imbalance using SMOTE, and model building using Random Forest Classifier.
+
+🎯 Problem Statement
+        Employee attrition is a major challenge for organizations. Losing employees leads to increased hiring costs and reduced productivity.
+
+
+This project aims to:
+  Analyze key factors influencing employee attrition
+  Build a predictive model to identify employees at risk of leaving
+  Improve prediction performance using balancing techniques like SMOTE
+
+
+📁 Dataset
+
+The dataset contains employee-related attributes such as:
+        Age
+        Monthly Income
+        Job Role
+        Overtime
+        Stock Option Level
+        Marital Status
+        Years at Company
+        Attrition (Target variable)
+
+
+⚙️ Technologies Used
+        Python\Pandas & NumPy\Matplotlib & Seaborn\Scikit-learn\Imbalanced-learn (SMOTE)
+
+
+🧹 Data Preprocessing
+
+      Handled missing values
+      Encoded categorical variables using One-Hot Encoding
+      Scaled/structured features for modeling
+      Addressed class imbalance using SMOTE
+      📊 Exploratory Data Analysis (EDA)
+
+Key insights:
+      Majority of employees stay in the company (class imbalance)
+      Employees with lower income show higher attrition tendency
+      Overtime has a strong relationship with employee leaving behavior
+
+🤖 Model Building
+      Model Used: Random Forest Classifier
+      Techniques Applied: Hyperparameter tuning
+      SMOTE for balancing classes
+
+
+📈 Model Performance
+      Accuracy: ~85%
+      Improved recall for minority class using SMOTE
+      Balanced performance across classes
+              
+📊 Feature Importance
+
+The model identified key drivers of attrition such as:
+  Stock Option Level
+  Monthly Income
+  Job Role
+  Overtime
+  Marital Status
+
+
+📌 Key Insights
+
+Stock options and income significantly influence attrition prediction
+Overtime employees are more likely to leave
+Employee satisfaction and compensation are major drivers
+
+
+
+
+
+
+
+
+
